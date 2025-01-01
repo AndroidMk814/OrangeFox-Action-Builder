@@ -17,23 +17,23 @@ on:
         options:
         - 12.1
         - 11.0
-      DEVICE_TREE:
+      DEVICE_TREE:https://github.com/JanDimple/android_device_xiaomi_earth
         description: 'OrangeFox Device Tree'
         required: true
         default: 'https://github.com/cd-Crypton/custom_recovery_tree_realme_nashc'
-      DEVICE_TREE_BRANCH:
+      DEVICE_TREE_BRANCH:LineageOS/android_device_xiaomi_earth:lineage-21
         description: 'OrangeFox Device Tree Branch'
         required: true
         default: 'android-12.1'
-      DEVICE_PATH:
+      DEVICE_PATH:'device/poco/earth
         description: 'Specify your Device Path'
         required: true
         default: 'device/realme/nashc'
-      DEVICE_NAME:
+      DEVICE_NAME:'earth'
         description: 'Specify your Device Codename'
         required: true
         default: 'nashc'
-      BUILD_TARGET:
+      BUILD_TARGET:'boot'
         description: 'Specify your Build Target'
         required: true
         default: 'recovery'
